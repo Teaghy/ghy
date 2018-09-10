@@ -1,0 +1,21 @@
+/*注释*/
+div {
+  height: 100px;
+  width: 100px;
+}
+div span {
+  display: block;
+}
+div p {
+  font-size: 12px;
+}
+div .box {
+  background-color: #923354;
+}
+div .box .box2 {
+  background-color: red;
+}
+div .box .box2 .box3 {
+  background-color: red;
+  border-radius: 5px;
+}

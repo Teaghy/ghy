@@ -1,0 +1,26 @@
+//这是一个less文件
+/*注释*/
+@logoColor:#923354;
+div{
+  height: 100px;
+  width: 100px;
+  span{
+    display:block;
+  }
+  p{
+    font-size: 12px;
+  }
+  .box{
+    background-color: @logoColor;
+    .box2{
+      background-color: red;
+      .box3{
+        background-color: red;
+        .addRadius(5px)
+      }
+    }
+  }
+}
+.addRadius(@R:5px){
+  border-radius: @R;
+}

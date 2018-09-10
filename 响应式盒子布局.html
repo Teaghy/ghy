@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 100%;
+            border: 1px solid #cccccc;
+        }
+        ul{
+            width: 100%;
+            list-style: none;
+            overflow: hidden;
+        }
+        li{
+            width: 100%;
+            float: left;
+            height: 100px;
+            box-sizing: border-box;
+            border: 1px solid yellow;
+            background-color: red;
+        }
+        @media screen and (min-width: 768px){
+            li{
+                width:50%;
+            }
+        }
+        @media screen and (min-width: 962px){
+            li{
+                width:33.33%;
+            }
+        }
+        @media screen and (min-width: 1200px){
+            li{
+                width:25%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>
